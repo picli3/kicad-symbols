@@ -1,0 +1,64 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ADP5014
+D Switching Voltage Regulators 4-Channel IPS w/Quad Low-Noise Buck Reg
+K source isolate
+F http://www.analog.com/media/en/technical-documentation/data-sheets/ADP5014.pdf
+$ENDCMP
+#
+$CMP DLW
+D EMI 2-inductor-filter
+K EMI filter
+F http://www.murata.com/~/media/webrenewal/support/library/catalog/products/emc/emifil/c30e.ashx?la=en-gb
+$ENDCMP
+#
+$CMP DMP2022LSS
+D MOSFET P-CH 20V 10A 8SOIC
+K Mosfet
+F https://www.diodes.com/assets/Datasheets/ds31373.pdf
+$ENDCMP
+#
+$CMP FA-238
+D Two pin crystal
+K quartz ceramic resonator oscillator
+$ENDCMP
+#
+$CMP H6062FNLT
+D Audio Transformers / Signal Transformers 1000Base-T SMD PoE 350uH .65Ohms 1-Port
+K PoE
+F https://www.mouser.com/ds/2/336/-595357.pdf
+$ENDCMP
+#
+$CMP LED_RCBG
+D LED RGB, Common Cathode
+K led rgb diode
+$ENDCMP
+#
+$CMP QBLP679E-RGB
+D LED RGB, Common Cathode
+K led rgb diode
+$ENDCMP
+#
+$CMP SI1012R
+D Transistor N-MOSFET with substrate diode (general)
+K NMOS n-mos n-mosfet transistor
+$ENDCMP
+#
+$CMP STTH8L06G
+D Schottky diode, two cathode pins
+K diode schotty SCHDPAK
+$ENDCMP
+#
+$CMP VHB50W-Q24-S5
+D Isolated DC/DC Converters dc-dc isolated, 50W, 9~36Vdc input, 5Vdc, 10A, single output, DIP
+K source isolate CUI
+F http://www.cui.com/product/resource/vhb50w.pdf
+$ENDCMP
+#
+$CMP probe
+D djdgj
+K jdj djjd  djj
+F jjhhjg
+$ENDCMP
+#
+#End Doc Library
