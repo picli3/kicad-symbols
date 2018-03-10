@@ -34,9 +34,27 @@ D LED RGB, Common Cathode
 K led rgb diode
 $ENDCMP
 #
+$CMP LTC-4724JR
+D LED 7-SEG .4" 3DGT SUPER RED CC
+K LED SEVEN
+F https://media.digikey.com/pdf/Data%20Sheets/Lite-On%20PDFs/LTC-4724JR.pdf
+$ENDCMP
+#
+$CMP PBO-3-S5
+D AC DC CONVERTER 5V 3W
+K AC DC
+F http://www.cui.com/product/resource/pbo-3.pdf
+$ENDCMP
+#
 $CMP QBLP679E-RGB
 D LED RGB, Common Cathode
 K led rgb diode
+$ENDCMP
+#
+$CMP RJMG1BD3B8K1ANR
+D CONN MAGJACK 1PORT 10/100 BASE-T
+K ETHERNET CONNECTOR
+F https://www.amphenolcanada.com/ProductSearch/Drawings/AC/RJMG1BD3B8K1ANR.PDF
 $ENDCMP
 #
 $CMP SI1012R
