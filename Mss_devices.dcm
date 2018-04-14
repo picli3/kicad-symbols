@@ -67,6 +67,11 @@ D Schottky diode, two cathode pins
 K diode schotty SCHDPAK
 $ENDCMP
 #
+$CMP TLA2024IRUGT
+D Conversores analógicos a digitales - ADC 12-Bit 4-Ch Delta-Sigma ADC w/ Voltage Reference, Oscillator, PGA, and I2C for Low-Cost Applications 10-X2QFN -40 to 85
+F http://www.ti.com/lit/ds/symlink/tla2024.pdf
+$ENDCMP
+#
 $CMP VHB50W-Q24-S5
 D Isolated DC/DC Converters dc-dc isolated, 50W, 9~36Vdc input, 5Vdc, 10A, single output, DIP
 K source isolate CUI
