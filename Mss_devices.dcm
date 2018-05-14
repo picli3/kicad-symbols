@@ -29,6 +29,11 @@ K PoE
 F https://www.mouser.com/ds/2/336/-595357.pdf
 $ENDCMP
 #
+$CMP HCPL3700
+D OPTOISO 2.5KV DARLINGTON 8-SMD
+F https://www.fairchildsemi.com/datasheets/HC/HCPL3700.pdf
+$ENDCMP
+#
 $CMP LED_RCBG
 D LED RGB, Common Cathode
 K led rgb diode
