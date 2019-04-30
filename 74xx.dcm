@@ -3,7 +3,6 @@ EESchema-DOCLIB  Version 2.0
 $CMP 7400
 D quad 2-input NAND gate
 K TTL nand 2-input
-F http://www.ti.com/lit/gpn/sn7400
 $ENDCMP
 #
 $CMP 7402
@@ -16,6 +15,12 @@ $CMP 74469
 D 8-bit synchronous up/down counter, parallel load and hold capability (obsolete)
 K counter
 F http://www.ti.com/lit/gpn/sn74469
+$ENDCMP
+#
+$CMP 74AHCT123
+D Dual retriggerable monostable multivibrator
+K TTL monostable, multivibrator
+F http://www.ti.com/lit/gpn/sn74ahct123a
 $ENDCMP
 #
 $CMP 74CBTLV3257
@@ -46,6 +51,12 @@ $CMP 74HC04
 D hex inverter
 K HCMOS not inverter
 F http://www.nxp.com/documents/data_sheet/74HC_HCT04.pdf
+$ENDCMP
+#
+$CMP 74HC123
+D Dual retriggerable monostable multivibrator
+K TTL monostable, multivibrator
+F https://assets.nexperia.com/documents/data-sheet/74HC_HCT123.pdf
 $ENDCMP
 #
 $CMP 74HC14
@@ -138,6 +149,12 @@ K HCTMOS not inverter
 F http://www.nxp.com/documents/data_sheet/74HC_HCT04.pdf
 $ENDCMP
 #
+$CMP 74HCT123
+D Dual retriggerable monostable multivibrator
+K TTL monostable, multivibrator
+F https://assets.nexperia.com/documents/data-sheet/74HC_HCT123.pdf
+$ENDCMP
+#
 $CMP 74HCT240
 D 8-bit buffer; 3-state; inverting
 K octal buffer line driver inverting
@@ -186,7 +203,7 @@ K CMOS hex buffer
 F www.st.com/resource/en/datasheet/74lcx07.pdf
 $ENDCMP
 #
-$CMP 74LS00
+$CMP 74LS00F
 D quad 2-input NAND gate
 K TTL nand 2-input
 F http://www.ti.com/lit/gpn/sn74ls00
@@ -310,24 +327,6 @@ $CMP 74LS123
 D Dual retriggerable Monostable
 K TTL monostable
 F http://www.ti.com/lit/gpn/sn74LS123
-$ENDCMP
-#
-$CMP 74AHCT123
-D Dual retriggerable monostable multivibrator
-K TTL monostable, multivibrator
-F http://www.ti.com/lit/gpn/sn74ahct123a
-$ENDCMP
-#
-$CMP 74HCT123
-D Dual retriggerable monostable multivibrator
-K TTL monostable, multivibrator
-F https://assets.nexperia.com/documents/data-sheet/74HC_HCT123.pdf
-$ENDCMP
-#
-$CMP 74HC123
-D Dual retriggerable monostable multivibrator
-K TTL monostable, multivibrator
-F https://assets.nexperia.com/documents/data-sheet/74HC_HCT123.pdf
 $ENDCMP
 #
 $CMP 74LS125

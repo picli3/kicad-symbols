@@ -45,6 +45,10 @@ K LED SEVEN
 F https://media.digikey.com/pdf/Data%20Sheets/Lite-On%20PDFs/LTC-4724JR.pdf
 $ENDCMP
 #
+$CMP LTV-817S-TA1
+F http://optoelectronics.liteon.com/upload/download/DS-70-96-0016/LTV-8X7%20series%20201610%20.pdf
+$ENDCMP
+#
 $CMP PBO-3-S5
 D AC DC CONVERTER 5V 3W
 K AC DC
@@ -62,9 +66,18 @@ K ETHERNET CONNECTOR
 F https://www.amphenolcanada.com/ProductSearch/Drawings/AC/RJMG1BD3B8K1ANR.PDF
 $ENDCMP
 #
+$CMP SEAM-50-02.0-S-08-2-A-K-TR
+D Procesador de alto redimiento TX2 de NVidia
+$ENDCMP
+#
 $CMP SI1012R
 D Transistor N-MOSFET with substrate diode (general)
 K NMOS n-mos n-mosfet transistor
+$ENDCMP
+#
+$CMP SN74LVC2T45
+D IC TRNSLTR BIDIRECTIONAL SM8
+F http://www.ti.com/lit/ds/symlink/sn74lvc2t45.pdf
 $ENDCMP
 #
 $CMP STTH8L06G
@@ -72,9 +85,19 @@ D Schottky diode, two cathode pins
 K diode schotty SCHDPAK
 $ENDCMP
 #
+$CMP TCA6408A
+D IC I/O EXPANDER I2C 8B
+K texas
+F http://www.ti.com/lit/ds/symlink/tca6408a.pdf
+$ENDCMP
+#
 $CMP TLA2024IRUGT
 D Conversores analógicos a digitales - ADC 12-Bit 4-Ch Delta-Sigma ADC w/ Voltage Reference, Oscillator, PGA, and I2C for Low-Cost Applications 10-X2QFN -40 to 85
 F http://www.ti.com/lit/ds/symlink/tla2024.pdf
+$ENDCMP
+#
+$CMP TPS2052B
+D IC POWER DIST SWITCH DUAL 8-SOIC
 $ENDCMP
 #
 $CMP VHB50W-Q24-S5

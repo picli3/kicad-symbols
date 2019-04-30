@@ -636,6 +636,12 @@ K electromagnet coil inductor
 F ~
 $ENDCMP
 #
+$CMP FS12-090-C2
+D Transformer, single primary, single secondary
+K transformer coil magnet
+F ~
+$ENDCMP
+#
 $CMP Ferrite_Bead
 D Ferrite bead
 K L ferrite bead inductor filter
@@ -2193,12 +2199,6 @@ $ENDCMP
 $CMP Thermocouple_Block
 D Thermocouple with isothermal block
 K thermocouple temperature sensor cold junction
-F ~
-$ENDCMP
-#
-$CMP Transformer_1P_1S
-D Transformer, single primary, single secondary
-K transformer coil magnet
 F ~
 $ENDCMP
 #
