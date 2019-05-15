@@ -6,6 +6,12 @@ K source isolate
 F http://www.analog.com/media/en/technical-documentation/data-sheets/ADP5014.pdf
 $ENDCMP
 #
+$CMP Amperemeter_AC
+D AC ammeter
+K ammeter AC ampere meter
+F ~
+$ENDCMP
+#
 $CMP DLW
 D EMI 2-inductor-filter
 K EMI filter
@@ -32,6 +38,11 @@ $ENDCMP
 $CMP HCPL3700
 D OPTOISO 2.5KV DARLINGTON 8-SMD
 F https://www.fairchildsemi.com/datasheets/HC/HCPL3700.pdf
+$ENDCMP
+#
+$CMP INA3221
+D IC CURRENT SHUNT MONITOR 16VQFN
+F http://www.ti.com/lit/ds/symlink/ina3221.pdf
 $ENDCMP
 #
 $CMP LED_RCBG
@@ -73,6 +84,12 @@ $ENDCMP
 $CMP SI1012R
 D Transistor N-MOSFET with substrate diode (general)
 K NMOS n-mos n-mosfet transistor
+$ENDCMP
+#
+$CMP SIZ918DT-T1-GE3
+D Dual N-Channel 30 V (D-S) MOSFETs
+K transistor NMOS N-MOS N-MOSFET
+F http://www.vishay.com/docs/63783/siz918dt.pdf
 $ENDCMP
 #
 $CMP SN74LVC2T45
