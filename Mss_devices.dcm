@@ -45,6 +45,10 @@ D IC CURRENT SHUNT MONITOR 16VQFN
 F http://www.ti.com/lit/ds/symlink/ina3221.pdf
 $ENDCMP
 #
+$CMP JETSON_TX2
+D Procesador de alto redimiento TX2 de NVidia
+$ENDCMP
+#
 $CMP LED_RCBG
 D LED RGB, Common Cathode
 K led rgb diode
@@ -58,6 +62,11 @@ $ENDCMP
 #
 $CMP LTV-817S-TA1
 F http://optoelectronics.liteon.com/upload/download/DS-70-96-0016/LTV-8X7%20series%20201610%20.pdf
+$ENDCMP
+#
+$CMP MIC5209-x.xYS
+D IC REG LINEAR 5V 500MA SOT223
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20005720A.pdf
 $ENDCMP
 #
 $CMP PBO-3-S5
@@ -75,10 +84,6 @@ $CMP RJMG1BD3B8K1ANR
 D CONN MAGJACK 1PORT 10/100 BASE-T
 K ETHERNET CONNECTOR
 F https://www.amphenolcanada.com/ProductSearch/Drawings/AC/RJMG1BD3B8K1ANR.PDF
-$ENDCMP
-#
-$CMP SEAM-50-02.0-S-08-2-A-K-TR
-D Procesador de alto redimiento TX2 de NVidia
 $ENDCMP
 #
 $CMP SI1012R
